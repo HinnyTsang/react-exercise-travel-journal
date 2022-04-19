@@ -1,0 +1,34 @@
+.nav {
+    background-color: #F55A5A;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav--logo {
+    /* position: absolute; */
+    width: 24px;
+    height: 24px;
+}
+
+.nav--title {
+    color: white;
+    font-family: 'Inter';
+    /* margin-left: 10px; */
+    margin: 20px 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 18px; */
+    letter-spacing: -0.075em;
+}
